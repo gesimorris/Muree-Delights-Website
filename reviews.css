@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading {
+    color:whitesmoke;
+    text-align: center;
+    font-family: cursive;
+    font-size: 70px;
+
+}
+
+header img {
+    float: left;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    
+}
+
+.page-scroll {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+
+header li a {
+    color:white;
+    text-decoration: none;
+}
+header li a:active {
+    font-weight: bolder;
+    color: red;
+}
+header li a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(0, 0, 0), rgb(29, 91, 0));
+     
+}
+input:focus {
+    background-color: yellowgreen;
+}
+option:focus{
+    background-color: yellowgreen;
+}
+.formRow {
+    color:white;
+    font-size: 15px;
+    display: inline-table;
+}
+.formRow2 {
+    color:white;
+    font-size: 15px;
+    margin-left: 600px;
+    display: inline-table;
+    margin-bottom: 50px;
+}
+legend {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(11, 89, 4);
+}
+.VideoReview h1{
+    color:white;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 91, 0));  
+}
+.VideoReview h3{
+    color:white;
+    text-align: center;
+    font-family: cursive;
+}
+.VideoReview video{
+    margin-left: 250px;
+}
+.error-message {
+    color:red;
+    font-size: larger;
+    text-align: center;
+    margin-left: 400px;
+}

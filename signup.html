@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="signup.css" rel="stylesheet">
+    <script src ="signup.js"></script>
+</head>
+<body>
+    <form id="signupForm" action="" method="post" enctype="application/x-www-form-urlencoded">
+        <fieldset id="loginForm">
+            <legend>Create an Account</legend>
+            <div class="signupRow">
+                <label for="username">Username</label>
+                <input name="cusName" id="username" type="text" required minlength="8" maxlength="20">
+            </div><br>
+            <div class="signupRow">
+                <label for="email">Email</label>
+                <input name="cusEmail" id="email" type="email" required>
+            </div><br>
+            <div class="signupRow">
+                <label for="password">Password</label>
+                <input name="cusPass" id="password" type="password" required minlength="8">
+            </div><br>
+            <div class="signupRow">
+                <label for="password-repeat">Repeat Password</label>
+                <input name="cusPassR" id="password-repeat" type="password" required>
+            </div><br>
+            <button id="createAcc" type="button" onclick="validateAcc();">Submit</button>
+            <br><br>
+            <span id="usernameError" class="error-message"></span><br>
+            <span id="passwordError" class="error-message"></span><br>
+            <span id="confirmpassError" class="error-message"></span><br>
+            <span id="emailError" class="error-message"></span><br>
+        </fieldset>
+    </form>
+</body>

@@ -1,0 +1,140 @@
+.typeofdish {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.dish {
+    display: inline;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+.dish li a {
+    color:white;
+    text-decoration: none;
+}
+#MenuPics h2 {
+    text-align: center;
+    font-size:40px;
+    color:wheat;
+    font-weight: bold;
+    text-shadow: 5px 5px goldenrod;
+}
+#MenuPics h2:first-of-type{
+    margin-top: 50px;
+}
+#MenuPics h2:last-of-type{
+    margin-bottom: 50px;
+}
+#MenuPics h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+
+#MenuPics h1 {
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: underline;
+    background-image: url('https://images.unsplash.com/photo-1563300365-9c77e472e7a5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    
+}
+
+#dealsList {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    color:whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.page-scroll {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+header img {
+    float: left;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+}
+header {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(29, 91, 0));   
+}
+header li a {
+    color:white;
+    text-decoration: none;
+}
+header li a:active {
+    font-weight: bolder;
+    color: red;
+}
+header li a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#menuitems li a{
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: cursive;
+    font-style: italic;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1573836469204-9386d81a67a9?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#MenuPics img {
+    margin-left: 510px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px rgb(29, 91, 0);
+}
+#Icon {
+    height: 34px;
+    margin-left: 240px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 34px;
+    
+}
+#Icon1 {
+    height: 34px;
+    margin-left: 240px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 34px;
+
+}
+.imagelogo {
+    float: left;
+    width: 20px;
+    padding: 10px;
+    height: 10px;
+}
+.imagelogo::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+
+#OrderNow h2{
+    color:white;
+    margin-left: 500px;
+}
+

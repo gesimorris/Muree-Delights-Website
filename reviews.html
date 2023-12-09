@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="reviews.css" rel="stylesheet">
+    <script src="reviews.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://wl-img-prd.s3-accelerate.amazonaws.com/21128fe3-3209-4815-adfb-1ca951f531c1-h.jpeg">
+        <nav class="navbar" role="navigation">
+            <ul class="navbarlist">
+            <li class="page-scroll">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="page-scroll">
+                <a href="menu.html">Menu</a>
+            </li>
+            <li class = "page-scroll">
+                <a href="crossreference.html">Cross reference page</a>
+              </li>
+        </ul>
+    </header><br><br><br>
+    <h1 id="heading">Customer Reviews</h1><br><br><br><hr>
+    </div>
+    <p><br>We sincerely appreciate your recent order from Muree Delights! Thank you for choosing our restaurant to satisfy your culinary cravings. Our team is delighted to have had the opportunity to serve you, and we hope that our authentic Pakistani flavors added a delightful touch to your dining experience. At Muree Delights, we are committed to providing the highest quality of service and the most delicious dishes. Your satisfaction is our priority, and we would be honored if you could take a moment to share your thoughts and experiences with us. Your feedback is invaluable in helping us continually improve and enhance the dining journey we offer. Thank you once again for choosing Muree Delights.</p>  
+    <div class="reviewsform">
+        <form id="customerReview" action="" method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset id="CustomerInfo">
+                <legend>Write a review</legend>
+                <div class="formRow">
+                    <label for="name">Name</label>
+                    <input name="customerName" id="name" type="text" placeholder="First and Last name" required/>
+                    
+                </div><br><br>
+                <div class="formRow">
+                    <label for="email">E-mail</label>
+                    <input name="cutomerEmail" id="email" type="email" required/>
+                    
+                </div><br><br>
+                <div class="formRow">
+                    <label for="name">Phone number</label>
+                    <input name="customerNUMBER" id="number" type="tel" pattern=“/[0-9]/” required  />
+                    
+                </div><br><br>
+                <div class="formRow">
+                    <label for="date">Date of order/visit</label>
+                    <input name="orderDate" id="date" type="date" />
+                </div><br><br>
+                <div class="formRow">
+                    <label for="order">What did you order?</label>
+                    <input name="customerOrder" id="order" type="text" />
+                </div><br><br>
+                <div class="formRow">
+                    <label for="quality">How would you rate the quality of the food? <br> 0=poor and 5=great</label><br>
+                    <input name="foodQuality" id="quality" type="range" value="5" step="1" min="0" max="5">
+                </div><br><br>
+                <div class="formRow">
+                    <label for="rating">How would you rate the service?</label>
+                    <input name="Foodrating" id="rating" list="Rating">
+                    <datalist id="Rating">
+                       <option value="Very Good" />
+                       <option value="Good" />
+                       <option value="Average" />
+                       <option value="Poor" />
+                       <option value="Very Poor" />
+                    </datalist>
+                </div><br><br>
+                <div class="formRow">
+                    <label for="Comments">Please give a reason for your rating</label>
+                    <input name="userComments" type="text" placeholder="Comments" id="Comments"/>
+                </div><br><br>
+                <div class="formRow">
+                    <input name="notify" id="mailNotis" value="yes" type="checkbox" />
+                    <label for="mailNotis">Add me to your mailing list for upcoming deals</label>
+                </div>
+                <br><br>
+                <button id="submitButton" type="button" onclick="validateform();">Submit</button>
+                <br>
+                <span id="nameError" class="error-message"></span><br>
+                <span id="emailError" class="error-message"></span><br>
+                <span id="phoneError" class="error-message"></span><br>
+            </fieldset>
+        </form>
+        <div class="VideoReview">
+            <h1>Video Reviews</h1>
+            <hr>
+            <h3>Chacha Sialkoti With Female Tiktokers Of UAE In Muree Delights Restaurant</h3>
+            <video width="580" height="490" controls>
+                <source src="Review.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <h3>Habibi Come To Muree Delights</h3>
+            <video width="580" height="490" controls>
+                <source src="Dining.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+    </div>
+</body>

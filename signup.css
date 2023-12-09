@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.error-message {
+    color:red;
+    font-size: larger;
+    text-align: center;
+    margin-left: 400px;
+}
+html {
+    background-color: rgb(56, 160, 106);
+}
